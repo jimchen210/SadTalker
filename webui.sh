@@ -3,7 +3,7 @@
 
 # If run from macOS, load defaults from webui-macos-env.sh
 if [[ "$OSTYPE" == "darwin"* ]]; then
-    export TORCH_COMMAND="pip install torch==1.12.1 torchvision==0.13.1"
+    export TORCH_COMMAND="pip install torch torchvision"
 fi
 
 # python3 executable
